@@ -1,14 +1,14 @@
 # Title: 
 
-Author: 
+Author: Lozana Rossenova
 
 ORCID: 
 
-Date: 
+Date: 08.06.2023
 
 DOI: 
 
-Repository URL: 
+Repository URL: https://github.com/lozanaross/catalogue-003
 
 ## Based on Baroque AI: Publication Prototype
 

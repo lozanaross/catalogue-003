@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Baroque AI: Publication Prototype - Some test content</title>
+<title>3D Hackathon Data: Publication Prototype - Some test content</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,7 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./paintings.html" rel="next">
+<link href="./paintingsmod.html" rel="next">
 <link href="./colophon.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -90,26 +90,26 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Baroque AI: Publication Prototype</a> 
+      <a href="./">3D Hackathon Data: Publication Prototype</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/NFDI4Culture/catalogue-003" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/lozanaross/catalogue-003" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Baroque-AI--Publication-Prototype.pdf">
+            <a class="dropdown-item sidebar-tools-main-item" href="./3D-Hackathon-Data--Publication-Prototype.pdf">
               <i class="bi bi-bi-file-pdf pe-1"></i>
             Download PDF
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Baroque-AI--Publication-Prototype.docx">
+            <a class="dropdown-item sidebar-tools-main-item" href="./3D-Hackathon-Data--Publication-Prototype.docx">
               <i class="bi bi-bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
           <li>
-            <a class="dropdown-item sidebar-tools-main-item" href="./Baroque-AI--Publication-Prototype.epub">
+            <a class="dropdown-item sidebar-tools-main-item" href="./3D-Hackathon-Data--Publication-Prototype.epub">
               <i class="bi bi-bi-journal pe-1"></i>
             Download ePub
             </a>
@@ -128,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Title:</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Info page</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -143,17 +143,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./paintings.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./paintingsmod.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Test SPARQL query</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./sw-collection.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Custom Collection - SW</span></a>
   </div>
 </li>
     </ul>
@@ -188,12 +178,12 @@ ul.task-list li input[type="checkbox"] {
 <p>Here an image of my data viz <img src="./sample_datavizdiagram.svg" class="img-fluid" alt="Sample data viz diagram"></p>
 Here is an iframe with some data viz:
 <div>
-<iframe style="width: 50vw; height: 30vh; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Fmain_subject%20%3Fmain_subjectLabel%20%3Frgb%20%3Fauthor%20%3FauthorLabel%20%3Fimage%20%3Finstance_of%20%3Finstance_ofLabel%20%3Fcites_work%20%3Fcites_workLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fitem%20wdt%3AP50%20wd%3AQ6375450.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP921%20%3Fmain_subject.%0A%20%20BIND%28%224ec279%22%20AS%20%3Frgb%29%7D.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP50%20%3Fauthor.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fauthor%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP31%20%3Finstance_of.%20%7D%0A%20%20%23OPTIONAL%20%7B%20%3Fitem%20wdt%3AP2860%20%3Fcites_work.%20%7D%0A%7D%0ALIMIT%201000" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups">
+<iframe style="width: 800px; height: 600px; border: none;" src="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fitem%20%3FitemLabel%20%3Fmain_subject%20%3Fmain_subjectLabel%20%3Frgb%20%3Fauthor%20%3FauthorLabel%20%3Fimage%20%3Finstance_of%20%3Finstance_ofLabel%20%3Fcites_work%20%3Fcites_workLabel%20WHERE%20%7B%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%20%20%3Fitem%20wdt%3AP50%20wd%3AQ6375450.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP921%20%3Fmain_subject.%0A%20%20BIND%28%224ec279%22%20AS%20%3Frgb%29%7D.%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP50%20%3Fauthor.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fauthor%20wdt%3AP18%20%3Fimage.%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fitem%20wdt%3AP31%20%3Finstance_of.%20%7D%0A%20%20%23OPTIONAL%20%7B%20%3Fitem%20wdt%3AP2860%20%3Fcites_work.%20%7D%0A%7D%0ALIMIT%201000" referrerpolicy="origin" sandbox="allow-scripts allow-same-origin allow-popups">
 </iframe>
 </div>
 Here is a 3D file embed from Sketchfab:
-<div class="sketchfab-embed-wrapper">
-<iframe title="Maskenfigur Toboggan Frau" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" src="https://sketchfab.com/models/93f67c4d39d744d19529e2e0c7a16b17/embed?camera=0"> </iframe>
+<div>
+<iframe style="width: 800px; height: 600px; border: none;" title="Maskenfigur Toboggan Frau" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="" execution-while-out-of-viewport="" execution-while-not-rendered="" web-share="" src="https://sketchfab.com/models/93f67c4d39d744d19529e2e0c7a16b17/embed?camera=0"> </iframe>
 </div>
 
 
@@ -439,8 +429,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./paintings.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-title">Activity: Paintings catalogue in Jupyter Notebook</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./paintingsmod.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-title">Test SPARQL query</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -448,4 +438,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/NFDI4Culture/catalogue-003/edit/main/collection003.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/lozanaross/catalogue-003/edit/main/collection003.qmd" class="toc-action">Edit this page</a></p></div></div></div></div></footer></body></html>

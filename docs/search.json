@@ -2,21 +2,21 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Baroque AI: Publication Prototype",
+    "title": "3D Hackathon Data: Publication Prototype",
     "section": "",
-    "text": "Title:\nAuthor: Lozana Rossenova\nORCID:\nDate: 08.06.2023\nDOI:\nRepository URL: https://github.com/lozanaross/catalogue-003"
+    "text": "Info page\nAuthor: Lozana Rossenova\nORCID:\nDate: 08.06.2023\nDOI:\nRepository URL: https://github.com/lozanaross/catalogue-003"
   },
   {
     "objectID": "index.html#based-on-baroque-ai-publication-prototype",
     "href": "index.html#based-on-baroque-ai-publication-prototype",
-    "title": "Baroque AI: Publication Prototype",
+    "title": "3D Hackathon Data: Publication Prototype",
     "section": "Based on Baroque AI: Publication Prototype",
     "text": "Based on Baroque AI: Publication Prototype"
   },
   {
     "objectID": "index.html#part-of-the-series-baroque-toc",
     "href": "index.html#part-of-the-series-baroque-toc",
-    "title": "Baroque AI: Publication Prototype",
+    "title": "3D Hackathon Data: Publication Prototype",
     "section": "Part of the series: Baroque TOC",
     "text": "Part of the series: Baroque TOC\nProgramme instructions\n2023-03-17\n This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.\nBook cover: Reworking of Baroque pearl with enamelled gold mounts set with rubies. Creative Commons CC0 1.0 Universal Public Domain Dedication. This file was donated to Wikimedia Commons as part of a project by the Metropolitan Museum of Art.\n\nThis work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
   },
@@ -53,7 +53,7 @@
     "href": "paintingsmod.html",
     "title": "Test SPARQL query",
     "section": "",
-    "text": "Objective: Make a selection of nine paintings for the exhibition catalogue to be selected from Wikidata and rendered multi-format in Quarto.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q97097806\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1974-02-05T00:00:00Z\nCreator: Joan Jonas\nLocation: Museum of Fine Arts Boston\n\nWikidata link: http://www.wikidata.org/entity/Q97097808\nTitle: Solo Hits (1980) (performance)\nYear: 1980-02-01T00:00:00Z\nCreator: Joan Jonas\nLocation: Solomon R. Guggenheim Museum\n\nWikidata link: http://www.wikidata.org/entity/Q97097800\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1972-10-27T00:00:00Z\nCreator: Joan Jonas\nLocation: San Francisco Art Institute\n\nWikidata link: http://www.wikidata.org/entity/Q97097803\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1973-05-03T00:00:00Z\nCreator: Joan Jonas\nLocation: Oberlin College\n\nWikidata link: http://www.wikidata.org/entity/Q97097801\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1972-10-28T00:00:00Z\nCreator: Joan Jonas\nLocation: California Institute of the Arts\n\nWikidata link: http://www.wikidata.org/entity/Q97097810\nTitle: Organic Honey’s Visual Telepathy / Organic Honey’s Vertical Roll (1972/1994) (installation)\nYear: 1995-01-01T00:00:00Z\nCreator: Joan Jonas\nLocation: Museum of Contemporary Art, Los Angeles\n\nWikidata link: http://www.wikidata.org/entity/Q99550463\nTitle: Untitled improvised performance (2000) (performance)\nYear: 2000-09-28T00:00:00Z\nCreator: Joan Jonas\nLocation: Dia Art Foundation\n\nWikidata link: http://www.wikidata.org/entity/Q97097804\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1973-01-01T00:00:00Z\nCreator: Joan Jonas\nLocation: Palais Galliera\n\nWikidata link: http://www.wikidata.org/entity/Q97097807\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1980-01-01T00:00:00Z\nCreator: Joan Jonas\nLocation: Berkeley Art Museum and Pacific Film Archive"
+    "text": "Objective: Make a query that shows limited results from the data you uploaded to Wikidata from the 3D Hackathon datasets.\nThe below Python code uses SPARQLWrapper to retrieve data from Wikidata based on a SPARQL query.\nWikidata link: http://www.wikidata.org/entity/Q97097809\nTitle: Organic Honey’s Visual Telepathy / Organic Honey’s Vertical Roll (1972/1994) (installation)\nYear: 1994-05-31T00:00:00Z\nCreator: Joan Jonas\nLocation: Stedelijk Museum Amsterdam\n\nWikidata link: http://www.wikidata.org/entity/Q97097813\nTitle: Organic Honey’s Visual Telepathy / Organic Honey’s Vertical Roll (1972/1994) (installation)\nYear: 2012-09-23T00:00:00Z\nCreator: Joan Jonas\nLocation: Stedelijk Museum Amsterdam\n\nWikidata link: http://www.wikidata.org/entity/Q97097812\nTitle: Organic Honey’s Visual Telepathy / Organic Honey’s Vertical Roll (1972/1994) (installation)\nYear: 2003-12-14T00:00:00Z\nCreator: Joan Jonas\nLocation: Queens Museum\n\nWikidata link: http://www.wikidata.org/entity/Q99552543\nTitle: Organic Honey’s Vertical Roll (1980)\nYear: 1980-05-16T00:00:00Z\nCreator: Joan Jonas\nLocation: Berkeley Art Museum and Pacific Film Archive\n\nWikidata link: http://www.wikidata.org/entity/Q97097811\nTitle: Organic Honey’s Visual Telepathy / Organic Honey’s Vertical Roll (1972/1994) (installation)\nYear: 2000-11-16T00:00:00Z\nCreator: Joan Jonas\nLocation: Staatsgalerie Stuttgart\n\nWikidata link: http://www.wikidata.org/entity/Q97097806\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1974-02-05T00:00:00Z\nCreator: Joan Jonas\nLocation: Museum of Fine Arts Boston\n\nWikidata link: http://www.wikidata.org/entity/Q97097808\nTitle: Solo Hits (1980) (performance)\nYear: 1980-02-01T00:00:00Z\nCreator: Joan Jonas\nLocation: Solomon R. Guggenheim Museum\n\nWikidata link: http://www.wikidata.org/entity/Q97097800\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1972-10-27T00:00:00Z\nCreator: Joan Jonas\nLocation: San Francisco Art Institute\n\nWikidata link: http://www.wikidata.org/entity/Q97097803\nTitle: Organic Honey’s Vertical Roll (1972) (performance)\nYear: 1973-05-03T00:00:00Z\nCreator: Joan Jonas\nLocation: Oberlin College"
   },
   {
     "objectID": "collection003.html",
